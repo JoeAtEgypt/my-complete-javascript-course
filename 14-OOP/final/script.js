@@ -539,9 +539,9 @@ console.log(acc1.pin);
 // STATIC version of these 4
 
 class Account {
-  locale = navigator.language;
+  locale = navigator.language; 
   bank = 'Bankist';
-  #movements = [];
+  #movements = []; // private
   #pin;
 
   constructor(owner, currency, pin) {

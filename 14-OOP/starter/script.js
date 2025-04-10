@@ -442,7 +442,7 @@ and also update the 'brake' method in the 'CarCl' class. They experiment with ch
 DATA CAR 1: 'Rivian' going at 120 km/h, with a charge of 23%
 
 GOOD LUCK 😀
-*/
+
 
 class CarCl {
   constructor(speed, map) {
@@ -497,3 +497,4 @@ rivian
   .chargeBattery(100)
   .brake()
   .accelerate();
+/*

@@ -381,7 +381,7 @@ Notice what happens when you 'accelerate'! HINT: Review the definiton of polymor
 DATA CAR 1: 'Tesla' going at 120 km/h, with a charge of 23%
 
 GOOD LUCK 😀
-*/
+
 const Car = function (speed, map) {
   this.speed = speed;
   this.map = map;
@@ -426,3 +426,5 @@ tesla.brake();
 tesla.accelerate();
 tesla.accelerate();
 tesla.accelerate();
+*/
+
